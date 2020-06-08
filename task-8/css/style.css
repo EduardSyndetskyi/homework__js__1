@@ -1,0 +1,49 @@
+
+html {
+    font-size: 10px;
+}
+body {
+     
+     margin: 0px;
+}
+
+ .container {
+     margin:0 auto;
+     max-width: 700px;
+     padding: 15px;
+ }
+ .converter {
+     display: flex;
+     flex-direction: column;
+     border: 1px solid rgba(133, 91, 91, .3);
+     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+     padding: 5em 2em;
+     border-radius: 15px;
+     background-color: rgba(243, 240, 223, .2);
+     font-size: 2rem;
+ }
+
+ .wallet,.price,.imgChocolate,.coin {
+    width: 20px;
+    height: 20px;
+    vertical-align: text-bottom;   
+     padding-right: .3em;
+ }
+ .chocolate, .remainder {
+     padding-top: .2em;
+     background-color: rgba(6, 7, 43, 0.2);
+     text-align: center;
+     margin-top: 1em;
+     border: 1px solid gray;
+     border-radius: 5px;
+ }
+ input {
+     border-radius: 4px;
+     height: 30px;
+     text-align: center;
+     font-size: 2rem;
+ }
+ label {
+     text-align: center;
+ }
+ 

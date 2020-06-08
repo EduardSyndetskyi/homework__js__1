@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Расчет депозита</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <label for="amount"> Сумма вклада, грн.</label>
+      <input  type="number" class="field" id="amount" name="amount" value="1000" min="0" step="100">
+      
+      <label for="period"> Период в месяцах, меc.</label>
+      <input  type="number" class="field" id="period" name="period" value="2" min="1" step="1">
+      
+      <label for="amount"> Процентная ставка, %</label>
+      <input  type="number" class="field" id="percent" name="percent" value="5" min="1" step="1">
+    
+      <div id="result">
+        <span>0</span> грн
+      </div>
+    
+    </div>
+
+    <script src="js/script-1.10(lesson).js"></script>
+  </body>
+  </html>
+  
+  

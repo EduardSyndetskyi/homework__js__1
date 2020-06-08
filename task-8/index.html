@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Подсчет количества шоколадок и остаток</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <div class="container">
+    <div class="converter">
+        
+          <label for="sum"><img class="wallet" src="img/wallet.png" alt="">Введите сумму денег</label>
+          
+          <input  type="number" class="field" id="sum" name="sum" value="1" min="0" step="1">
+
+          <label for="price"><img class="price" src="img/money.png" alt=""> Введите цену одной шоколадки  </label>
+          
+          <input  type="number" class="field" id="price" name="price" value="1" min="0" step="1">
+
+          
+          <div class="chocolate" id="сhocolate">
+            <img class="imgChocolate" src="img/chocolate.png" alt="">
+            <span>0</span>
+          </div>
+
+          <div class="remainder" id="remainder"> 
+            <img class="coin" src="img/coin.jpg" alt="">
+            <span>0</span>
+          </div>
+
+      </div>
+    </div>
+
+    <script src="js/script-1.8.js"></script>
+  </body>
+  </html>
+  

@@ -1,0 +1,39 @@
+ body {
+     
+     margin: 0px;
+}
+
+ .container {
+     
+     margin:0 auto;
+     max-width: 700px;
+     padding: 15px;
+ }
+
+.converter {
+    display: flex;
+}
+
+.usbDrive {
+    width: 15px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+::placeholder {
+    text-align: end;
+}
+
+.result {
+    background-color:seashell;
+    border: 1px solid darkblue;
+    border-radius: 4px;
+    margin-left: 4px;
+    padding: 0 .4em;
+}
+
+
+
+
+ 
